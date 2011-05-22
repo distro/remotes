@@ -1,0 +1,16 @@
+name: official
+
+repositories:
+  source:
+    - name:        universe
+      description: The main source tree with checked and maintained rbuilds
+      location:    "git; repository = git://github.com/distro/source.git; branch = universe"
+
+    - name:        multiverse
+      description: The main source tree with unchecked and unmaintained user contributed rbuilds
+      location:    "git; repository = git://github.com/distro/source.git; branch = multiverse"
+
+  binary:
+    - name:        universe/linux/core2
+      description: The source/universe binary repository for Linux on Intel Core 2
+      location:    "https://github.com/distro/binary/raw/universe/linux/core2.xml"
