@@ -1,4 +1,6 @@
-name: official
+---
+name:        official
+description: Set of official Distrø repositories
 
 repositories:
   source:
