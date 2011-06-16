@@ -15,4 +15,4 @@ repositories:
   binary:
     - name:        universe/linux/core2
       description: The source/universe binary repository for Linux on Intel Core 2
-      location:    "https://github.com/distro/binary/raw/universe/linux/core2.xml"
+      location:    "git; repository = git://github.com/distro/binary.git; path = universe/linux/core2.xml"
